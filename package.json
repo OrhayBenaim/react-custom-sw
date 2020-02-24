@@ -17,8 +17,8 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
-    "start": "react-scripts start && cra-append-sw --skip-compile ./src/custom-sw.js",
-    "build": "react-scripts build && cra-append-sw --skip-compile ./src/custom-sw.js",
+    "start": "react-scripts start && cra-append-sw --skip-compile ./public/service-worker-custom.js",
+    "build": "react-scripts build && cra-append-sw ./public/service-worker-custom.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
